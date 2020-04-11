@@ -43,12 +43,12 @@ test:
 
 about:
   home: https://github.com/friendly/matlib
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: A collection of matrix functions for teaching and learning matrix linear algebra as used in multivariate statistical methods. These functions are mainly
     for tutorial purposes in learning matrix algebra ideas using R. In some cases, functions are provided for concepts available elsewhere in R, but where the function
     call or name is not obvious. In other cases, functions are provided to show or demonstrate an algorithm. In addition, a collection of functions are provided for
     drawing vector diagrams in 2D and 3D.
-  license_family: GPL3
+  license_family: GPL2
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
