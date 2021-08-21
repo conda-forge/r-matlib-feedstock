@@ -1,4 +1,4 @@
-{% set version = "0.9.4" %}
+{% set version = "0.9.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/matlib_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/matlib/matlib_{{ version }}.tar.gz
-  sha256: 365b3a80abcf20a2ce86a613bc56a32da5a1f0b09e2e01c505b5bbf72a00ccd7
+  sha256: 1c3ca715aeab3c26c9bfa8f2ddae89d6f77043629ac746d9f9200fd29eff0354
 
 build:
   merge_build_host: true  # [win]
