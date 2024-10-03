@@ -1,4 +1,4 @@
-{% set version = "0.9.8" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/matlib_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/matlib/matlib_{{ version }}.tar.gz
-  sha256: d522d09565aefdf4b0e71489f21d66cafb8160f066aa90eed6c7b5ce4f60765a
+  sha256: 6c130ed6e435dc33d070f70cdc1fa932bd45122024cf2bc8faa4a0663bb971b1
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
